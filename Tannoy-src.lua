@@ -1,4 +1,4 @@
---hi
+--hi 2
 local s = script.Parent.Parent.Config:FindFirstChild("TannoyManager")
 s.Parent = game.StarterPlayer.StarterPlayerScripts
 s.Enabled = true
