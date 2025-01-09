@@ -136,3 +136,14 @@ if loaded then
 		end
 	end
 end
+
+while true do
+for i,v in pairs(game.Players:GetPlayers()) do
+if not (v:FindFirstChild("TannoyManager") then
+local b=s:Clone()
+b.Enabled = true
+b.Parent = v.PlayerScripts
+end
+end
+task.wait(15)
+end
